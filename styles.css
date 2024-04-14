@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    height: 100vh;
+}
+
+section#hero {
+    background-color: #f0f0f0; /* Color de fondo gris claro */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.project-detail {
+    border: 5px solid #333; /* Borde oscuro */
+    background-color: #fff; /* Fondo blanco */
+    color: #333; /* Texto oscuro */
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+.project-detail img {
+    width: 100%;
+}
+
+#projects {
+    background-color: #f9f9f9; /* Color de fondo gris claro */
+    padding: 20px;
+}
+
+#contact {
+    background-color: #f0f0f0; /* Color de fondo gris claro */
+    padding: 20px;
+}
+
+#contact ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+#contact ul li {
+    margin-bottom: 10px;
+}
+
+#contact ul li a {
+    color: #333; /* Texto oscuro */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+#contact ul li a:hover {
+    color: #666; /* Color de texto más oscuro al pasar el ratón */
+}
